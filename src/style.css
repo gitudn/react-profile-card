@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "IBM Plex Mono", sans-serif;
+  background-color: #f7f7f7;
+}
+
+h1 {
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
+.card {
+  width: calc(25% - 20px); /* Adjust width for four cards horizontally */
+  margin: 10px;
+  border: 2px solid #222;
+}
+
+.card::after {
+  content: "";
+  clear: both;
+}
+
+.avatar {
+  width: 30%;
+  margin-left: 19px;
+  object-fit: cover;
+
+  display: block;
+}
+
+.data {
+  padding: 16px;
+}
+
+.skill-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 8px;
+}
+
+.skill {
+  padding: 2px 8px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  font-weight: 400;
+}
