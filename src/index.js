@@ -19,7 +19,7 @@ function App() {
 }
 
 function Avatar() {
-  return <img className="avatar" src="hossainUddin.jpeg" alt="avatar image" />;
+  return <img className="avatar" src="hossainuddin.png" alt="avatar image" />;
 }
 function Intro() {
   return (

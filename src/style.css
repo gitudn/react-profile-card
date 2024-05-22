@@ -28,9 +28,9 @@ h1 {
 }
 
 .avatar {
-  width: 30%;
-  margin-left: 19px;
-  object-fit: cover;
+  width: 50%;
+  margin-left: 17px;
+  object-fit: fill;
 
   display: block;
 }
